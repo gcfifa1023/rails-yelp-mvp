@@ -1,9 +1,9 @@
-class CreateResturants < ActiveRecord::Migration[6.0]
+class CreateRestaurants < ActiveRecord::Migration[6.0]
   def change
-    create_table :resturants do |t|
+    create_table :restaurants do |t|
       t.string :name
       t.string :address
-      t.integer :phone_number
+      t.string :phone_number
       t.string :category
 
       t.timestamps
